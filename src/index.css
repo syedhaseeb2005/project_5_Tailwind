@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  background: #000;
+  color: #fff;
+  font-family: "Source Code Pro";
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.sora {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.active {
+  color: #fff;
+  font-weight: 700;
+}
+.bg-about-img {
+  background-image: url("./assets/img.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: top center;
+}
